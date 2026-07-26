@@ -83,7 +83,7 @@ import './App.css'
     {icon:"fab fa-linkedin",title:"LinkedIn",Link:"https://www.linkedin.com/in/roman-ali-frontend/"},
      {icon:"fab fa-instagram",title:"Instagram",Link:"https://www.instagram.com/roman_dev2/"},
      {icon:"fas fa-briefcase",title:"Fiverr",Link:"https://www.fiverr.com/s/ZmbLejY"},
-     {icon:"fab fa-github",title:"Github",Link:"https://github.com/RomanAli2"},
+     {icon:"fab fa-github",title:"Github",Link:"https://github.com/RomanAli3"},
 
 
     ]
