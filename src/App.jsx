@@ -76,7 +76,7 @@ import './App.css'
     "Responsive Web Design",
     "Git & GitHub",
     "API Integration",
-    "Node js (basic knowledge)"
+    "Node js "
    
   ];
   const Constact=[
@@ -273,7 +273,7 @@ My favorite qoutes is :<strong className="text-purple-500">" Hard work beats tal
         </div>
       </section>
 
-      {/* Contact */}
+      {/* Contact */}``
       <motion.section
         id="contact"
         initial="hidden"
