@@ -1,16 +1,17 @@
 import { motion } from "framer-motion";
+import Typewriter from "typewriter-effect";
 import './App.css'
  function App() {
   const projects = [
     {
       id: 1,
-      title: "ForageBoard Web",
+     title: "Najmat Alarab Visa Agency",
       description:
-        "A sleek, responsive web dashboard designed to help users manage tasks and data efficiently. Features Dark/Light mode toggle and a clean interface.",
-      tech: ["Vue.js", "Tailwind", "Responsive UI"],
+        "Clean and modern website for visa documents clearing service with responsive design.",
+      tech: ["React.js", "Tailwind", "Responsive UI"],
       image:
-        "/image/12.png",
-        liveDemo:"https://forge-board.vercel.app/"
+        "/image/1.png",
+      liveDemo:"https://najmatalarabdocsclearing.com"
 
     },
     {
@@ -25,24 +26,24 @@ import './App.css'
       },
       {
       id: 3,
-      title: "Hadian Creative Hub",
+       title: "ForageBoard Web",
       description:
-        "Full stack clean and modern website for hadian creative",
-      tech: ["React.js", "Tailwind", "nodejs","express"],
+        "A sleek, responsive web dashboard designed to help users manage tasks and data efficiently. Features Dark/Light mode toggle and a clean interface.",
+      tech: ["Vue.js", "Tailwind", "Responsive UI"],
       image:
-        "/image/hadian.png",
-        liveDemo:"https://go.screenpal.com/watch/cOiOQmnUSH6"
+        "/image/12.png",
+        liveDemo:"https://forge-board.vercel.app/"
       },
 
     {
       id: 4,
-      title: "Notaion Web",
+      title: "Weather Web",
       description:
-        "Clean and modern frontend web for paractice  with reusable components.",
-      tech: ["Vue.js", "Tailwind", "Responsive UI","Dashboard"],
+        "Real-time weather forecast webapp built with react and tailwind css.  ",
+      tech: ["React.js", "Tailwind", "Responsive UI",],
       image:
-        "/image/notion-two-dusky.vercel.app_.png",
-      liveDemo:"https://notion-two-dusky.vercel.app/"
+        "/image/Untitled2.png",
+      liveDemo:"https://react-weather-web.vercel.app/"
       },
       {
       id: 5,
@@ -56,27 +57,30 @@ import './App.css'
       },
       {
       id: 6,
-      title: "Weather Web",
+      title: "VideoHub",
       description:
-        "Real-time weather forecast webapp built with react and tailwind css.  ",
-      tech: ["React.js", "Tailwind", "Responsive UI",],
+        "Furture Full Stack Video sharing website like youtube with user authentication, video upload, and responsive design.",
+      tech: ["React.js", "Tailwind", "nodejs","express","mongodb"],
       image:
-        "/image/Untitled2.png",
-      liveDemo:"https://react-weather-web.vercel.app/"
+        "/image/2.jpg",
+        liveDemo:""
       },
   ];
 
   const skills = [
+     "HTML",
+    "CSS",
+    "JavaScript",
     "React.js",
     "Vue.js",
-    "JavaScript",
     "Tailwind CSS",
-    "HTML",
-    "CSS",
+    "Node js ",
+    "MongoDB",
+    "Express js",
     "Responsive Web Design",
     "Git & GitHub",
     "API Integration",
-    "Node js "
+    
    
   ];
   const Constact=[
@@ -84,8 +88,6 @@ import './App.css'
      {icon:"fab fa-instagram",title:"Instagram",Link:"https://www.instagram.com/roman_dev2/"},
      {icon:"fas fa-briefcase",title:"Fiverr",Link:"https://www.fiverr.com/s/ZmbLejY"},
      {icon:"fab fa-github",title:"Github",Link:"https://github.com/RomanAli3"},
-
-
     ]
 
   const fadeUp = {
@@ -135,8 +137,16 @@ import './App.css'
             Hi,i am <br/><span className="text-purple-600">ROMAN ALI</span>
           </h1>
 
-          <p className="text-gray-600 text-lg leading-8 max-w-xl">
-            I build modern, fast and responsive web applications using React, Vue.js and Tailwind CSS with clean UI and smooth user experience.
+          <p className="text-purple-600 font-semibold text-2xl p-2">
+        <Typewriter
+        className=""
+      options={{
+        strings: ["Full Stack Web Developer", "Freelancer", "Student"],
+        autoStart: true,
+        loop: true,
+        deleteSpeed: 70,
+      }}
+    />
           </p>
 
           <div className="flex flex-wrap gap-4 mt-8">
@@ -195,13 +205,8 @@ import './App.css'
           <h2 className="text-4xl font-bold mb-6 text-purple-700">About Me</h2>
 
           <p className="text-gray-600 text-md leading-9">
-            Hi, I am Roman Ali from Pakistan. I completed my matriculation from Kot Momin Dar ul Huda School and studied Frontend Web Development at Hadian Creative.
-
-I am a Frontend Developer who builds modern, responsive websites like e-commerce, business and professional web apps.
-
-My goal is to improve my skills and become a professional developer.
-<br/>
-My favorite qoutes is :<strong className="text-purple-500">" Hard work beats talent when talent doesn’t work hard "</strong>
+           Hi, I’m Roman Ali from Pakistan. I’m a Full Stack Web Developer passionate about building modern, responsive, and functional web applications using React.js, Vue.js, Node.js, Express.js, MongoDB, and Tailwind CSS. I’m a first year DIT student, continuing to expand my knowledge in Computer Science and Web Development.I enjoy turning ideas into real world projects and continuously improving my skills through building and learning.<br/>
+<strong className="text-purple-500">" Hard work beats talent when talent doesn’t work hard "</strong>
           </p>
         </div>
       </motion.section>
