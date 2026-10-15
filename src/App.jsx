@@ -162,7 +162,7 @@ import './App.css'
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="/Resume.pdf"
+              href="/Roman CV.pdf"
               download
               className="border border-purple-300 hover:bg-purple-100 transition px-7 py-3 rounded-2xl font-semibold"
             >
