@@ -177,14 +177,14 @@ import './App.css'
           transition={{ duration: 0.7 }}
           className="relative"
         >
-          <div className="absolute inset-0 bg-purple-300 blur-3xl opacity-30 rounded-full" />
+          <div className="absolute inset-0 bg-purple-700 blur-xl opacity-30 rounded-full" />
 
           <motion.div
             whileHover={{ scale: 1.03, rotate: 1 }}
             className="relative flex justify-center bg-white/70 backdrop-blur-xl border border-purple-100 rounded-3xl p-8 shadow-2xl text-center"
           >
             <img
-              src="/image/ChatGPT Image Jun 18, 2026, 05_53_43 AM.png"
+              src="/image/photo.jpg"
               alt="developer"
               className="rounded-full text-center w-50 md:h-80 md:w-80 h-50 "
             />
