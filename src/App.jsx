@@ -10,7 +10,7 @@ import './App.css'
         "Clean and modern website for visa documents clearing service with responsive design.",
       tech: ["React.js", "Tailwind", "Responsive UI"],
       image:
-        "/image/1.png",
+        "/image/1.jpg",
       liveDemo:"https://najmatalarabdocsclearing.com"
 
     },
@@ -21,7 +21,7 @@ import './App.css'
         "Clean and modern dashboard frontend with reusable components.",
       tech: ["React.js", "Tailwind", "Responsive UI","Dashboard"],
       image:
-        "/image/Untitled.png",
+        "/image/Untitled.jpg",
       liveDemo:"https://be-my-courier.vercel.app/"
       },
       {
@@ -31,7 +31,7 @@ import './App.css'
         "A sleek, responsive web dashboard designed to help users manage tasks and data efficiently. Features Dark/Light mode toggle and a clean interface.",
       tech: ["Vue.js", "Tailwind", "Responsive UI"],
       image:
-        "/image/12.png",
+        "/image/12.jpg",
         liveDemo:"https://forge-board.vercel.app/"
       },
 
@@ -42,7 +42,7 @@ import './App.css'
         "Real-time weather forecast webapp built with react and tailwind css.  ",
       tech: ["React.js", "Tailwind", "Responsive UI",],
       image:
-        "/image/Untitled2.png",
+        "/image/Untitled2.jpg",
       liveDemo:"https://react-weather-web.vercel.app/"
       },
       {
@@ -52,7 +52,7 @@ import './App.css'
         "Clean and modern e comrence web.Focused on performance and shopping flow.",
       tech: ["Vue.js", "Tailwind", "Responsive UI"],
       image:
-        "/image/amazora-teal.vercel.app_(iPad Pro).png",
+        "/image/amazora-teal.vercel.app_(iPad Pro).jpg",
       liveDemo:"https://amazora-teal.vercel.app/"
       },
       {
