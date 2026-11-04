@@ -59,11 +59,11 @@ import './App.css'
       id: 6,
       title: "VideoHub",
       description:
-        "Furture Full Stack Video sharing website like youtube with user authentication, video upload, and responsive design.",
+        "Full Stack Video sharing website like youtube with user authentication,Dark & Light Mode,Video Upload & Playback,Profile Management, and responsive design.",
       tech: ["React.js", "Tailwind", "nodejs","express","mongodb"],
       image:
         "/image/2.jpg",
-        liveDemo:""
+        liveDemo:"https://www.linkedin.com/posts/roman-ali-frontend_fullstackdevelopment-webdevelopment-mernstack-ugcPost-7523079273906135040-qcBY/"
       },
   ];
 
